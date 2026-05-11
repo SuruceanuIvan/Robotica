@@ -1,0 +1,4 @@
+float32 latura      # inainte de --- avem date de intrare, latura si 
+int32 nr_repetitii  # cate repetitii sa faca robotul
+---
+bool success # mesajul de output adica ce intoarce server

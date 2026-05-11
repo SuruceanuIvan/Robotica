@@ -1,0 +1,7 @@
+<launch>
+    <arg name="latura" default="0.5"/>
+    <arg name="nr_repetitii" default="2"/>
+
+    <node pkg="tarabostes_test2" type="server_tarabostes.py" name="server_tarabostes" output="screen"/>
+    <node pkg="tarabostes_test2" type="client_tarabostes.py" name="client_tarabostes" output="screen" args="$(arg latura) $(arg nr_repetitii)"/>
+</launch>
