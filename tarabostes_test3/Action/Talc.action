@@ -1,0 +1,8 @@
+# comanda trimisa catre server TAKEOFF pentru decolare sau LAND pentru aterizare
+string comanda
+---
+# rezultatul este gol nu returneaza nimic
+
+---
+# starea curenta a dronei trimisa ca feedback o data pe secunda
+string stare_curenta

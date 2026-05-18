@@ -1,0 +1,6 @@
+<launch>
+  <!-- porneste serverul de actiune care controleaza drona -->
+  <node name="tarabostes_server_nod" pkg="tarabostes_test3" type="server_tarabostes.py" output="screen"/>
+  <!-- porneste clientul care trimite comenzile de decolare si aterizare -->
+  <node name="tarabostes_client_nod" pkg="tarabostes_test3" type="client_tarabostes.py" output="screen"/>
+</launch>
